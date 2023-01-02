@@ -1,0 +1,12 @@
+name: Pikumin
+version: '${project.version}'
+main: com.github.kumo0621.pikumin.Pikumin
+api-version: 1.16
+commands:
+  pikumin:
+    aliases: piku
+    permission: pikumin
+
+permissions:
+  pikumin:
+    default: op
